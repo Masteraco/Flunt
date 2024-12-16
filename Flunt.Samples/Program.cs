@@ -11,7 +11,7 @@ namespace Flunt.Samples
         {
             FluntErrorMessages.IsEmailLocalizationErrorMessage = "deve ser um E-mail";
 
-            var request = new CreateCustomerRequest("", "");
+            var request = new CreateCustomerRequest("Alfredo", "testflunt-@hotmail.com");
             var handler = new CustomerHandler();
             var response = handler.Handle(request);
 
